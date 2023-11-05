@@ -1,0 +1,21 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+svg text {
+  font-family: "MonoLisa";
+  font-size: 0.2px;
+  font-weight: bold;
+}
+
+#c-tab {
+  transition: transform 0.1s ease-in-out;
+  transform: translate(0px,0);
+}
+
+svg {
+  position: absolute;
+  margin-top: 4rem;
+  page-break-after: always;
+}
